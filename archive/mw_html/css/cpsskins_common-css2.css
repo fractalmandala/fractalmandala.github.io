@@ -1,0 +1,272 @@
+html, body {
+    height: 100%;
+}
+/* January 2006 Thibaut SoulciÃ© for CPS Default 3.4 changed input&buttons border-style and border-color */
+input, textarea, select, button {
+    background-color: white;
+    margin: 4px 0px 0px 5px;
+}
+input {
+    border: 1px inset #757575;
+}
+input, button {
+    padding: 3px;
+}
+input[type="radio"], input[type="checkbox"] {
+    border: 0px ! important;
+}
+.fileview {
+    padding: 3px;
+}
+.statusmessage {
+    padding: 3px;
+    margin-bottom: 9px;
+}
+input.SearchBox {
+    background: url("http://indica-et-buddhica.org/cpsskins_images/search_icon.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 2px 2px 2px 20px;
+    background-color: white;
+    border: 1px inset #757575;
+}
+div.searchField {
+    background: url("http://indica-et-buddhica.org/cpsskins_images/portlet_search_icon.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 2px 2px 2px 20px;
+}
+.toggle_icon {
+    float: left;
+    clear: left;
+    padding: 2px 0 0 3px;
+}
+.missing_toggle {
+    padding: 0 0 0 13px;
+}
+.tree_node {
+    padding: 0 0 0 8px;
+}
+.tree_leaf {
+    padding: 0 0 0 22px;
+}
+.action_icon {
+    float: left;
+    clear: left;
+    padding: 0 6px 0 0;
+}
+/* Portal boxes */
+/* Standard vertical layout */
+.cpsskinsBox ul.cpsskinsMenu, .cpsskinsBox ul.cpsskinsMenu li {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+    list-style-type: none;
+    display: inline;
+}
+.cpsskinsBox ul.cpsskinsMenu li a {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.cpsskinsBox ul.cpsskinsMenu li a.noicon,
+.cpsskinsBox ul.cpsskinsMenu li.selected a.noicon {
+    background-image: none !important;
+    padding-left: 2px !important;
+}
+/* Item description */
+.cpsskinsBox ul.cpsskinsMenu li a span.itemDescription {
+    font-size: 85%;
+    display: block;
+}
+div.xmlExportButtons {
+    text-align: right;
+    padding-top: 1em;
+}
+div.xmlExportButtons a {
+    border: 0.1em outset #ff6600;
+    background: #f60;
+    color: #fff !important;
+    font: bold 70% 'Lucida Grande', Arial, Helvetica, sans-serif !important;
+    text-decoration: none;
+    padding: 0 0.3em 0 0.3em;
+    margin: 0 0.1em 0 0.1em;
+}
+/* horizontal layout (tabs) */
+.cpsskinsTab ul.cpsskinsMenu, .cpsskinsTab ul.cpsskinsMenu li {
+    margin: 0px;
+    padding: 0px;
+    line-height: normal;
+    list-style-type: none;
+    display: inline;
+}
+.cpsskinsTab ul.cpsskinsMenu li a {
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+/* Item description */
+.cpsskinsTab ul.cpsskinsMenu span.itemDescription {
+    display: none;
+}
+.cpsskinsTab div.xmlExportButtons {
+    display: none;
+}
+/* Buttons (min/max/close/edit) */
+.cpsskinsBox .buttons {
+    display: block;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.cpsskinsBox .buttons a {
+    float: right;
+}
+/* Rounded Tabs */
+.cpsskinsTabs {
+    float: left;
+    width: 100%;
+    text-align: left;
+    line-height: normal;
+}
+.cpsskinsTabs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cpsskinsTabs li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+.cpsskinsTabs a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    margin-left: 0 !important;
+}
+/*
+  Commented Backslash Hack
+  hides rule from IE5-Mac \
+ */
+.cpsskinsTabs a {
+    float: none;
+}
+/* End IE5-Mac hack */
+/* Item description */
+.cpsskinsTabs ul.cpsskinsMenu span.itemDescription {
+    display: none;
+}
+.cpsskinsTabs div.xmlExportButtons {
+    display: none;
+}
+/* Drop-down menus */
+.cpsskinsTabs li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+.cpsskinsTabs li > ul {
+    top: auto;
+    left: auto;
+}
+.cpsskinsTabs li:hover ul, .cpsskinsTabs li.over ul {
+    display: block;
+}
+/* Box corners */
+.cpsskinsBoxCorners .rbtop div {
+    position: relative;
+    left: -2px;
+    width: 100%;
+}
+.cpsskinsBoxCorners .rbtop {
+    position: relative;
+    right: -1px;
+    top: -1px;
+    width: 100%;
+}
+.cpsskinsBoxCorners .rbbot div {
+    position: relative;
+    left: -2px;
+    width: 100%;
+}
+.cpsskinsBoxCorners .rbbot {
+    width: 100%;
+    position: relative;
+    bottom: -1px;
+    right: -1px;
+}
+/* Monthly calendar */
+.cpsskinsCalendar {
+    text-align: center;
+    border-collapse: collapse;
+}
+.cpsskinsCalendar .event {
+    border-width: 1px;
+    border-style: solid;
+}
+.cpsskinsCalendar .event a {
+    font-weight: bold;
+}
+.cpsskinsCalendar .todaynoevent {
+    border-width: 2px;
+    border-style: solid;
+}
+.cpsskinsCalendar .todayevent {
+    border-width: 2px;
+    border-style: solid;
+}
+.cpsskinsCalendar .todayevent a {
+    font-weight: bold;
+}
+.cpsskinsCalendar .header {
+    font-weight: bold;
+}
+.cpsskinsCalendar .weekdays td {
+    border-width: 1px;
+    border-style: solid none solid none;
+}
+.cpsskinsCalendar .preview {
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.2em;
+    margin-top: 0.5em;
+    position: absolute;
+    visibility: hidden;
+    width: 12em;
+    text-align: left;
+}
+.hidden {
+    display: none;
+}
+.cpsskinsHBox {
+/* XXX It depends on VerticalPadding of TabStyle. */
+    margin: 3px;
+}
+.cpsskinsHBox ul.cpsskinsMenu, .cpsskinsHBox ul.cpsskinsMenu li {
+    padding: 3px 0 2px 0;
+    line-height: normal;
+    list-style-type: none;
+    display: inline;
+}
+/* IE6 hack */
+* html .cpsskinsHBox ul.cpsskinsMenu {
+    padding: 0px
+}
+* html .cpsskinsHBox ul.cpsskinsMenu li {
+    padding: 0px
+}
+.cpsskinsHBox ul.cpsskinsMenu li a {
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: 0 !important;
+}
+/* Item description */
+.cpsskinsHBox ul.cpsskinsMenu span.itemDescription {
+    display: none;
+}
+.cpsskinsHBox div.xmlExportButtons {
+    display: none;
+}

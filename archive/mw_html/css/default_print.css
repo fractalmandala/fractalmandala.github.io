@@ -1,0 +1,51 @@
+body {
+    background: White;
+    color: Black;
+    margin: 0;
+    padding: 0;
+}
+.netscape4,
+.tabs,
+.personalBar,
+td.left,
+td.right,
+td.workspace,
+div.documentActions,
+div.message,
+div.hidden,
+div.headerActions,
+div.searchBox,
+.footer,
+.help,
+.legend,
+.rssExport,
+.doNotPrint {
+    display: none;
+}
+ul {
+    list-style-image: none;
+}
+.editableDocument,
+.document,
+div.description,
+.group {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+table.listing,
+table.listing td {
+    border: 1pt solid black;
+    border-collapse: collapse;
+}
+a:link, a:visited {
+    background: transparent;
+    text-decoration: none;
+}
+td.eventHeader {
+    border: 1px solid black;
+}
+td.eventBody {
+    border: 1px dotted black;
+}

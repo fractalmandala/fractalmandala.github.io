@@ -1,0 +1,18 @@
+/*
+  Internet Explorer CSS customization.
+  This file is used and read *only* by MSIE through the use of a MSIE conditional
+  comment. This is the place to put instructions to correct the rendering problems
+  specific to MSIE.
+  $Id: msie.css.dtml 28860 2005-10-31 16:34:08Z ogrisel $
+ */
+/*
+  The MSIE PNG behavior is disabled by default but kept here in case you need it.
+  This MSIE behavior was supposed to work for MSIE >= 5.5, but *some* versions of
+  MSIE 5.5 have problems with it. So feel free to use it back again if your
+  visitors do not use MSIE 5.5 or when MSIE 5.5 becomes history.
+ */
+/*
+  img {
+  behavior: url(pngbehavior.htc);
+  }
+ */

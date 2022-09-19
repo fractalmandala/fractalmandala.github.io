@@ -1,0 +1,70 @@
+body, table {
+    font-size: 100%;
+    line-height: normal;
+}
+form {
+    margin: 0;
+}
+input, button {
+    vertical-align: middle;
+}
+div p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+h3, h4, h5, h6 {
+    margin: 0;
+}
+/* Misc table elements */
+td.centered {
+    text-align: center;
+}
+td.additionaltools {
+    color: black;
+    text-align: right;
+}
+td.even {
+    color: black;
+    background-color: #e3e0e3;
+    text-align: left;
+}
+td.odd {
+    color: black;
+    background-color: #f0f0f0;
+    text-align: left;
+}
+.chapo {
+    text-align: justify;
+    padding-bottom: 5px;
+}
+/* Forms */
+input, select, textarea, button {
+    font: 11px Verdana, Arial, sans-serif !important;
+    color: Black;
+    background-color: white;
+}
+.formmeta {
+    font: 800 12px Arial, sans-serif !important;
+    color: White;
+    background-color: #6699cc;
+    padding: 5px 10px 1px 5px;
+    text-align:right;
+    vertical-align: top;
+}
+.fileview {
+    border: 1px solid #999999;
+    background-color: #f0f0f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.statusmessage {
+    background-color: #e9e9ff;
+    border: 1px dotted #ccc;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
